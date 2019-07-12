@@ -718,24 +718,25 @@ p {
     padding-bottom: 40px; }
 
 .header-image {
-  max-width: 430px;
+  max-width: 450px;
   margin: 0 auto;
   position: relative; }
   .header-image::before {
     position: absolute;
     content: '';
-    width: 100%;
+    width: 90%;
     height: 82%;
     border: 20px solid #754ef9;
-    border-bottom: 0;
-    top: 50%;
-    left: 0;
+    border-top: 0;
+	border-left:0;
+    top: 48%;
+    left: 11%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%); }
-  .header-image::after {
+  /*.header-image::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -744,6 +745,7 @@ p {
     left: 0;
     bottom: 58px;
     z-index: 11; }
+	*/
   .header-image img {
     position: relative;
     z-index: 5; }
